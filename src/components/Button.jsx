@@ -10,7 +10,7 @@ const Button = (prop) => {
   };
   return (
     <button
-      className="bg-[#01034a] font-bold text-xl text-[#545353] p-2 hover:bg-[#11111e] rounded-full w-15 h-15 border-1 border-[#380303]"
+      className="bg-[#01034a] font-bold cursor-pointer text-xl text-[#545353] p-2 hover:bg-[#11111e] rounded-full w-15 h-15 border-1 border-[#380303]"
       onClick={() => {
         if (prop.type == "increment") {
           prop.setcount(prop.count + 1);
